@@ -3,6 +3,9 @@
 ## The second largest heading
 ###### The smallest heading
 
+*This text is italicized*
+
+**This is bold text**
 
 
 - George Washington
