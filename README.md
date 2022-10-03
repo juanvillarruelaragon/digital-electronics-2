@@ -46,6 +46,14 @@ You can also use words, to fit your writing style more closely[^note].
     
     
     
+    
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+    
+    
+    
     # Lab 1: YOUR_FIRSTNAME LASTNAME
 
 ### Morse code
