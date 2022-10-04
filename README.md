@@ -28,6 +28,7 @@
 #define DIT 300
 #define DAH 900
 #define inter 300
+#define caracter 900
 #define space 2100
 
 
@@ -44,20 +45,19 @@ int main(void)
     {
 
 
-        // Generate a lettre `A` Morse code
+        // Generate a lettre `A` Morse code     .-
 
-        digitalWrite(LED_GREEN, led_value);
+        digitalWrite(LED_GREEN, HIGH);
+        _delay_ms(DIT); //dit, point
+        delayWrite(LED_GREEN,LOW);
+        
+        _delay_ms(inter); //delay between dit and dah
 
-        led_value = HIGH;
-
-        _delay_ms(DIT) //dot
-        led_value=LOW;
-
-        _delay_ms(inter); //space between dit and dah
-
-        led_value= HIGH;
-
-        _delay_ms(DAH);
+        delayWrite(LED_GREEN,HIGH); //turn on LED
+        _delay_ms(DAH); //DAH, comma
+        
+        digitalWrite(LED_GREEN,LOW); //turn off LED
+        _delay_ms(caracter); //delay between characters of a word
 
 
     }
