@@ -8,7 +8,7 @@
 
 //A
 
-// DIT tdit=60/50 = 300 
+// DIT tdit= 300 
 // DAH 3*tdit = 900 seconds 
 // Intra-character space: 1 Tdit= 300
 // Inter-character space: 3 Tfdit= 900
