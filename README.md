@@ -36,7 +36,7 @@
 int main(void)
 {
 
-    uint8_t led_value = LOW;
+   
     // Set pin where on-board LED is connected as output
     pinMode(LED_GREEN, OUTPUT);
 
